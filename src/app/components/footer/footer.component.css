@@ -1,0 +1,20 @@
+.footer-area {
+    background: #192027;
+    text-align: center;
+    padding: 32px 0
+}
+
+.footer-area p {
+    margin: 0;
+    line-height: 26px;
+    font-size: 15px;
+    color: #999
+}
+
+.footer-area p a {
+    color: #5867dd
+}
+
+.footer-area p a:hover {
+    color: #8167a9
+}
