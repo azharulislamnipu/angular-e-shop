@@ -9,6 +9,7 @@ import { RecipeDetailsComponent } from './components/recipes/recipe-details/reci
 import { RecipeItemComponent } from './components/recipes/recipe-list/recipe-item/recipe-item.component';
 import { ShoppingListComponent } from './components/shopping-list/shopping-list.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ShoppingEditComponent } from './components/shopping-list/shopping-edit/shopping-edit.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { FooterComponent } from './components/footer/footer.component';
     RecipeDetailsComponent,
     RecipeItemComponent,
     ShoppingListComponent,
-    FooterComponent
+    FooterComponent,
+    ShoppingEditComponent
   ],
   imports: [
     BrowserModule
