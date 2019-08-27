@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit ,HostListener,HostBinding} from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+
+  show = '';
+
   constructor() { }
 
   ngOnInit() {
   }
+  changeHover($event){
+    $event.preventDefault();
+    this.show = $event.type == "mouseover" ? 'show' : '';
+  }
+
 
 }

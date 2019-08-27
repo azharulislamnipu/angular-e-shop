@@ -12,6 +12,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ShoppingEditComponent } from './components/shopping-list/shopping-edit/shopping-edit.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
